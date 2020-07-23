@@ -1,0 +1,15 @@
+--for initialization
+npm init --yes
+
+--for install Express and node-postgres (pg)
+npm i express pg
+
+--for install nodemon
+npm install  -g  nodemon
+
+--for statrt server
+npm nodemon .\index.js
+
+--for kill node server
+C:\Windows\System32>taskkill /F /IM node.exe
+SUCCESS: The process "node.exe" with PID 6312 has been terminated.
